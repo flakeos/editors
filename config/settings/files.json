@@ -1,0 +1,28 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.git": true,
+    "**/target": true,
+    "**/build": true,
+    "**/dist": true,
+    "**/.next": true
+  },
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/target": true,
+    "**/build": true,
+    "**/dist": true,
+    "**/.next": true,
+    "**/__pycache__": true
+  },
+  "search.quickOpen.includeHistory": false,
+  "search.showLineNumbers": true
+}

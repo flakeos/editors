@@ -1,0 +1,7 @@
+{
+  "core": ["golang.Go","ms-python.python","redhat.java","vscjava.vscode-java-debug","fwcd.kotlin","llvm-vs-code-extensions.vscode-clangd","tamasfe.even-better-toml","redhat.vscode-xml","redhat.vscode-yaml","dbaeumer.vscode-eslint","esbenp.prettier-vscode"],
+  "themes": ["PKief.material-icon-theme"],
+  "utility": ["EditorConfig.EditorConfig","streetsidesoftware.code-spell-checker","usernamehw.errorlens","oderwat.indent-rainbow","yzhang.markdown-all-in-one","wayou.vscode-todo-highlight","mhutchie.git-graph"],
+  "opencode": ["sst-dev.opencode"],
+  "extra": ["GitHub.vscode-pull-request-github","ms-azuretools.vscode-docker"]
+}

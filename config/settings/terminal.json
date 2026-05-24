@@ -1,0 +1,13 @@
+{
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "always",
+  "terminal.integrated.defaultLocation": "editor",
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.env.linux": {
+    "PATH": "/home/alessio.attilio/.local/bin:/home/alessio.attilio/.opencode/bin:/usr/local/bin:/usr/bin:/bin"
+  }
+}

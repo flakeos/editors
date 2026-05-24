@@ -1,0 +1,19 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.indent": 16,
+  "workbench.list.smoothScrolling": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.closeOnFileDelete": true,
+
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${appName}",
+  "window.commandCenter": true,
+  "window.dialogStyle": "native",
+  "window.nativeTabs": true,
+
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.autoReveal": true
+}

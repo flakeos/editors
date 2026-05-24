@@ -1,0 +1,35 @@
+{
+  "eslint.format.enable": false,
+  "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact"],
+  "eslint.run": "onType",
+  "eslint.codeActionsOnSave.mode": "all",
+
+  "prettier.requireConfig": true,
+  "prettier.tabWidth": 4,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.printWidth": 100,
+
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+
+  "go.toolsManagement.autoUpdate": true,
+  "go.useLanguageServer": true,
+
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.compile.nullAnalysis.mode": "automatic",
+
+  "redhat.telemetry.enabled": false,
+
+  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
+  "errorLens.messageEnabled": true,
+  "errorLens.fontStyleItalic": true,
+
+  "cSpell.userWords": [],
+  "cSpell.language": "en,it",
+
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": false,
+  "update.mode": "none"
+}

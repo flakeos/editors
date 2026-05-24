@@ -1,0 +1,29 @@
+{
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace",
+  "editor.fontLigatures": true,
+  "editor.lineNumbers": "relative",
+  "editor.renderLineHighlight": "all",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.minimap.enabled": true,
+  "editor.minimap.scale": 1,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.smoothScrolling": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.wordWrap": "off",
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.suggestSelection": "first",
+  "editor.stickyScroll.enabled": true,
+  "editor.inlayHints.enabled": "onUnlessPressed",
+  "editor.unicodeHighlight.ambiguousCharacters": false
+}

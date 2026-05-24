@@ -1,0 +1,7 @@
+{
+  "vscodium":   { "dir": "VSCodium",   "dataDir": ".vscode-oss",   "name": "VSCodium",         "history": [] },
+  "vscode":     { "dir": "Code",       "name": "Visual Studio Code","history": [] },
+  "cursor":     { "dir": "Cursor",     "name": "Cursor",           "history": ["globalStorage/cursor-dev.com"] },
+  "antigravity":{ "dir": "Antigravity","dataDir": ".antigravity",  "name": "Google Antigravity","history": [] },
+  "windsurf":   { "dir": "Windsurf",   "name": "Windsurf",         "history": ["globalStorage/codeium.com"] }
+}

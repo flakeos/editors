@@ -1,0 +1,42 @@
+{
+  "ErrCheck": {
+    "scope": "go",
+    "prefix": "err",
+    "body": ["if err != nil {\n\treturn ${1:nil}\n}"],
+    "description": "if err != nil"
+  },
+  "ErrWrap": {
+    "scope": "go",
+    "prefix": "errw",
+    "body": ["if err != nil {\n\treturn fmt.Errorf(\"${1:context}: %w\", err)\n}"],
+    "description": "if err != nil with fmt.Errorf wrap"
+  },
+  "TestFunc": {
+    "scope": "go",
+    "prefix": "tfunc",
+    "body": [
+      "func Test${1:Name}(t *testing.T) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Test function"
+  },
+  "BenchFunc": {
+    "scope": "go",
+    "prefix": "bfunc",
+    "body": [
+      "func Benchmark${1:Name}(b *testing.B) {",
+      "\tfor i := 0; i < b.N; i++ {",
+      "\t\t$0",
+      "\t}",
+      "}"
+    ],
+    "description": "Benchmark function"
+  },
+  "Struct": {
+    "scope": "go",
+    "prefix": "type",
+    "body": ["type ${1:Name} struct {", "\t$0", "}"],
+    "description": "struct type"
+  }
+}

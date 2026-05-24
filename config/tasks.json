@@ -1,0 +1,54 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "go: test package",
+      "type": "shell",
+      "command": "go test ./...",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "go: vet",
+      "type": "shell",
+      "command": "go vet ./...",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "python: pytest",
+      "type": "shell",
+      "command": "python3 -m pytest",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "make: build",
+      "type": "shell",
+      "command": "make",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "make: test",
+      "type": "shell",
+      "command": "make test",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "npm: test",
+      "type": "shell",
+      "command": "npm test",
+      "group": "test",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "go: build",
+      "type": "shell",
+      "command": "go build ./...",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

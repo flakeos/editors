@@ -1,0 +1,32 @@
+{
+  "ConsoleLog": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "cl",
+    "body": ["console.log($1)"],
+    "description": "console.log"
+  },
+  "ArrowFn": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "af",
+    "body": ["const ${1:fn} = (${2:args}) => {", "\t$0", "}"],
+    "description": "arrow function"
+  },
+  "ExportDefault": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "ed",
+    "body": ["export default ${1:Name}"],
+    "description": "export default"
+  },
+  "Interface": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "iface",
+    "body": ["interface ${1:Name} {", "\t$0", "}"],
+    "description": "TypeScript interface"
+  },
+  "TypeAlias": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "type",
+    "body": ["type ${1:Name} = ${2:string}"],
+    "description": "TypeScript type alias"
+  }
+}

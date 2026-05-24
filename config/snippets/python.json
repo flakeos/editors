@@ -1,0 +1,35 @@
+{
+  "DefMain": {
+    "scope": "python",
+    "prefix": "main",
+    "body": [
+      "def main():",
+      "\t$0",
+      "",
+      "if __name__ == \"__main__\":",
+      "\tmain()"
+    ],
+    "description": "main guard"
+  },
+  "Logger": {
+    "scope": "python",
+    "prefix": "log",
+    "body": ["log = logging.getLogger(__name__)"],
+    "description": "module logger"
+  },
+  "Class": {
+    "scope": "python",
+    "prefix": "class",
+    "body": ["class ${1:Name}:", "\t$0"],
+    "description": "class definition"
+  },
+  "DunderInit": {
+    "scope": "python",
+    "prefix": "__init__",
+    "body": [
+      "def __init__(self${2:, ${3:arg}}):",
+      "\t$0"
+    ],
+    "description": "__init__ method"
+  }
+}

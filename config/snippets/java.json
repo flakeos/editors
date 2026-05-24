@@ -1,0 +1,40 @@
+{
+  "PublicStaticVoidMain": {
+    "scope": "java",
+    "prefix": "main",
+    "body": ["public static void main(String[] args) {", "\t$0", "}"],
+    "description": "main method"
+  },
+  "SysOut": {
+    "scope": "java",
+    "prefix": "syso",
+    "body": ["System.out.println($1);"],
+    "description": "System.out.println"
+  },
+  "Logger": {
+    "scope": "java",
+    "prefix": "log",
+    "body": [
+      "private static final Logger log = LoggerFactory.getLogger(${1:ClassName}.class);"
+    ],
+    "description": "SLF4J logger"
+  },
+  "TryCatch": {
+    "scope": "java",
+    "prefix": "try",
+    "body": [
+      "try {",
+      "\t$0",
+      "} catch (${1:Exception} e) {",
+      "\tlog.error(\"${2:error}\", e);",
+      "}"
+    ],
+    "description": "try-catch"
+  },
+  "Getter": {
+    "scope": "java",
+    "prefix": "get",
+    "body": ["public ${1:Type} get${2:Name}() {", "\treturn this.${3:${2:name}};\n}"],
+    "description": "getter"
+  }
+}

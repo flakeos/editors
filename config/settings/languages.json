@@ -1,0 +1,19 @@
+{
+  "[javascript]": { "editor.tabSize": 2 },
+  "[typescript]": { "editor.tabSize": 2 },
+  "[json]": { "editor.tabSize": 2 },
+  "[yaml]": { "editor.tabSize": 2 },
+  "[xml]": { "editor.tabSize": 2 },
+  "[toml]": { "editor.tabSize": 2 },
+  "[go]": { "editor.tabSize": 4 },
+  "[python]": { "editor.tabSize": 4 },
+  "[java]": { "editor.tabSize": 4 },
+  "[kotlin]": { "editor.tabSize": 4 },
+  "[cpp]": { "editor.tabSize": 4 },
+  "[c]": { "editor.tabSize": 4 },
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.completeFunctionCalls": true
+}
